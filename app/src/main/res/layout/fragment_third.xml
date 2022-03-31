@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/bg">
+
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/textView0"
+            android:layout_width="303dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="20dp"
+            android:text="Admin &#38; Web Developers:"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="40dp"
+            android:textColor="#FFF">
+
+            <ImageView
+                android:layout_width="108dp"
+                android:layout_height="108dp"
+                android:src="@drawable/fadhlin2" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="303dp"
+                android:layout_height="match_parent"
+                android:background="@color/grey"
+                android:layout_marginLeft="-5dp"
+                android:text="NAME: Nur Fadhlin Qistina Binti Yahya\nIC: 000122-01-1200
+\nSTUDENT ID: 2019867804\nPROGRAM: Science Computer &#38; Mathematic\nCLASS: KCS 110 4L" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30dp"
+            android:textColor="#FFF">
+
+            <ImageView
+                android:layout_width="108dp"
+                android:layout_height="108dp"
+                android:src="@drawable/aina" />
+
+            <TextView
+
+                android:id="@+id/textView1"
+                android:layout_width="303dp"
+                android:layout_height="match_parent"
+                android:background="@color/grey"
+                android:layout_marginLeft="-5dp"
+                android:text="NAME: Aina Shafiqah Binti Mohd Hasan\nIC: 010305-02-0934
+\nSTUDENT ID: 2019270752\nPROGRAM: Science Computer &#38; Mathematic\nCLASS: KCS 110 4L" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30dp"
+            android:textColor="#FFF">
+
+            <ImageView
+                android:layout_width="108dp"
+                android:layout_height="108dp"
+                android:src="@drawable/mariana2" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="303dp"
+                android:layout_height="match_parent"
+                android:background="@color/grey"
+                android:layout_marginLeft="-5dp"
+                android:text="NAME: Mariana Atikah Binti Mohmad Nasa'ai\nIC: 010207-07-0268
+\nSTUDENT ID: 2019807246\nPROGRAM: Science Computer &#38; Mathematic\nCLASS: KCS 110 4L" />
+
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>
